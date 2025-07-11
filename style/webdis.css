@@ -21,9 +21,8 @@ button:hover {
     padding:50px;
     
 }
-.sign-button{
-   
-}
+
+
 .text-center{
     text-align: center;
 }
@@ -60,7 +59,7 @@ nav{
 .nav-logo{
     color:#4E47FF;
     font-size:50px;
-    padding-top:0px;
+    margin-top:0px;
 }
 
 
@@ -194,7 +193,7 @@ main section{
 .focus-box{
     
     
-    padding:50px 150px 70px 150px;
+    padding:70px 150px 70px 150px;
 }
 .focus-img{
     width:840px;
@@ -252,38 +251,64 @@ main label{
 
 }
 /* footer */
-.footer{
-    background-color: white;
-    height:400px;
-    align-items: center;
-
-}
-.footer-itam{
-     /* max-width:500px ; */
-    
-}
-
-.footer-header{
-    font-size:100px;
-    color:#4E47FF;
-    padding-bottom: 0px;
-    
-}
-footer ul{
-     display:flex;
-     
-    
-}
-footer ul li{
-    /* display:flex; */
-    list-style:none;
-    margin-right:51px;
-}
-footer li a{
-    text-decoration: none;
-    font-size:20px;
-
-}
 a:hover{
     color:black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+}
+
+
+.footer {
+  background-color: #f9f9ff;
+  padding: 60px 20px;
+  text-align: center;
+  color: #444;
+}
+
+
+.footer-header {
+  font-size: 40px;
+  color: #4f46e5; 
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.footer-peragraph {
+  font-size: 16px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.footer-list ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #888;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-list a:hover {
+  color: #4f46e5;
+}
+
+.dark-2 {
+  color: #888;
 }
